@@ -7,13 +7,22 @@
   "author": "Matheus Pimenta <matheuspiment@hotmail.com>",
   "license": "MIT",
   "scripts": {
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "start:dev": "nodemon --exec babel-node -- src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "babel-preset-env": "^1.7.0",
     "commitizen": "^3.0.2",
     "cz-conventional-changelog": "^2.1.0",
     "eslint": "^5.6.1",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.14.0"
+    "eslint-plugin-import": "^2.14.0",
+    "nodemon": "^1.18.4"
   }
 }
