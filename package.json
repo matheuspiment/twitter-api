@@ -1,0 +1,19 @@
+{
+  "name": "twitter-api",
+  "version": "1.0.0",
+  "description": "A simple twitter api",
+  "repository": "https://github.com/matheuspiment/twitter-api",
+  "main": "index.js",
+  "author": "Matheus Pimenta <matheuspiment@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "commit": "git-cz"
+  },
+  "devDependencies": {
+    "commitizen": "^3.0.2",
+    "cz-conventional-changelog": "^2.1.0",
+    "eslint": "^5.6.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
